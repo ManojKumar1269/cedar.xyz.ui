@@ -1,0 +1,160 @@
+.main {
+  background-color: #343541;
+  color: #ffffff;
+}
+
+.section {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+.company-title {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 15px;
+  padding: 5px 0px 10px 15px;
+  font-weight: bold;
+}
+
+
+img {
+  border-radius: 50%;
+}
+
+.bot-message {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0px;
+  flex-direction: column;
+}
+
+.user-message {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+
+.user-message p {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 10px;
+  padding: 10px 15px;  
+}
+
+.bot-message p {
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 15px;
+  width: 70%;
+}
+
+.user-detail-section {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 18%;
+}
+
+.issue-list-section {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  width: 18%;
+}
+
+.chat-section {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 18%;
+  width: 64%;
+}
+
+.chat-section-title {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  width: 64%;
+  height: 60px;
+  left: 18%;
+  z-index: 9;
+  background-color: #343541;
+}
+
+.input-section {
+  position: fixed;
+  bottom: 0;
+  left: 18%;
+  width: 64%;
+  background-color: #343541;
+}
+
+.chat-box {
+  position: fixed;
+  top: 60px;
+  left: 18%;
+  width: 62%;
+  bottom: 150px;
+  overflow-y: auto;
+}
+
+textarea {
+  resize: none;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+ul {
+  height: 40%;
+  overflow-y: scroll;
+}
+
+.issue-title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.bot-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px 0px;
+  background: #ffffff;
+  color: #000000;
+}
+
+.bot-img span:last-child {
+  font-weight: bold;
+}
+
+.bot-img span:first-child {
+  font-size: xx-small;
+}
+
+.file-name {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.overlay-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
